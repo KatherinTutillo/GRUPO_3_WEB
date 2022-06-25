@@ -1,17 +1,25 @@
 
+.titulo1 {
+    text-align: center;
+    font-size: 3.8rem;
+    color: red;
+}
+.titulo2 {
+    text-align: center;
+    font-size: 2rem;
+    color:blueviolet;
+}
 
-h1{
-    text-align: center;
-    color: rebeccapurple;
-   font-size: 2rem;
+.contenedor {
+   font-family: 'Courier New', Courier, monospace;
 }
-h2{
-    color: skyblue;
+
+.titulo1 span {
+    font-size: 2rem;
+    color: blue;
 }
-p{
-    color: black;
-}
-h3{
-    color: aqua;
-    text-align: center;
+
+.titulo2 span {
+    font-size: 2rem;
+    color: green;
 }
