@@ -23,3 +23,7 @@
     font-size: 2rem;
     color: green;
 }
+
+.navegacion-principal {
+    background-color: var(--amarillo);
+}
