@@ -35,3 +35,12 @@
 .navegacion-principal {
     background-color: var(--amarillo);
 }
+
+h3{
+    color: darkred;
+}
+
+fieldset{
+    color: darkmagenta;
+}
+
