@@ -19,6 +19,16 @@ body{
     font-family: 'Krub', sans-serif;
 }
 
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: red;
+}
+.titulo span {
+    font-size: 2rem;
+    color: blue;
+}
+
 .nav-bg{
     background-color: var(--celeste);
 }
@@ -33,13 +43,15 @@ body{
 }
 
 @media (min-width: 780px){
+
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
     }    
+
 }
 
-.navegacion-principal{
+.navegacion-principal a {
     display: block;
     color: var(--blanco);
     text-decoration: none;
@@ -51,14 +63,4 @@ body{
 .navegacion-principal a:hover{
     background-color: var(--primario);
     color:var(--oscuro);
-}
-
-.titulo {
-    text-align: center;
-    font-size: 3.8rem;
-    color: red;
-}
-.titulo span {
-    font-size: 2rem;
-    color: blue;
 }
