@@ -8,7 +8,6 @@
     --amarillo: #FFFF00;
     --celeste: #8EFBF2;
     --fuente-principal:3.8rem;
-    --letraTitulo: 'Krub', sans-serif;
 }
 
 html{
@@ -34,12 +33,10 @@ body{
 }
 
 @media (min-width: 780px){
-
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
-    }
-    
+    }    
 }
 
 .navegacion-principal{
