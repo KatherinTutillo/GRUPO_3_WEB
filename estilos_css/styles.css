@@ -1,3 +1,11 @@
+:root{
+    --blanco: #FFFFFF;
+    --marron: #CF4528;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --amarillo: #FFFF00;
+    --letraTitulo: 'Krub', sans-serif;
+}
 
 .titulo1 {
     text-align: center;
@@ -23,6 +31,7 @@
     font-size: 2rem;
     color: green;
 }
+<<<<<<< HEAD
 :root {
     --blanco: #ffffff;
     --oscuro: #212121;
@@ -48,3 +57,17 @@
     margin-top: auto;
     margin: auto;
 }
+=======
+
+.navegacion-principal {
+    background-color: var(--amarillo);
+}
+
+h3{
+    color: darkred;
+}
+
+fieldset{
+    color: crimson;
+}
+>>>>>>> ef82e4ea8672c7babc35a9a0d44dae1e309cd122
