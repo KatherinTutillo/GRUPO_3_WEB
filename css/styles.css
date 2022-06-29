@@ -1,0 +1,67 @@
+:root{
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --marron: #CF4528;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --amarillo: #FFFF00;
+    --celeste: #8EFBF2;
+    --fuente-principal:3.8rem;
+    --letraTitulo: 'Krub', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+.nav-bg{
+    background-color: var(--celeste);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.navegacion-principal{
+    display: flex;
+}
+
+@media (min-width: 780px){
+
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
+
+.navegacion-principal{
+    display: block;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color:var(--oscuro);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: red;
+}
+.titulo span {
+    font-size: 2rem;
+    color: blue;
+}
