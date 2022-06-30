@@ -71,3 +71,7 @@ body{
     color:var(--oscuro);
 }
 
+.hero{
+    background-image: url(../imagenes/hero.jpg);
+}
+
