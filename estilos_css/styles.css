@@ -7,6 +7,10 @@
     --letraTitulo: 'Krub', sans-serif;
 }
 
+h3{
+    text-align: center;
+ }
+
 .navegacion-principal{
     background-color: var(--amarillo);
 }
