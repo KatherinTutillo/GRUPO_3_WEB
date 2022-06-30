@@ -1,0 +1,68 @@
+:root{
+    --blanco: #FFFFFF;
+    --rosa : #f2a0c6;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --verde: #D5EACE;
+    --letraTitulo: 'Krub', sans-serif;
+    --lila: #b87adf;
+    --amarillo: #ebeba4;
+    --celeste: #8EFBF2;
+    --obscuro: #0E0239 ;
+    --fuente-principal:3.8rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family:  'Arima', cursive;;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--rosa) ;
+}
+.titulo span {
+    font-size: 2rem;
+    color:hotpink;
+}
+
+.nav-bg{
+    background-color: var(--lila);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.navegacion-principal{
+    display: flex;
+}
+
+@media (min-width: 780px){
+
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+}
+
+.navegacion-principal a {
+    display: block;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--amarillo);
+    color:var(--oscuro);
+}
