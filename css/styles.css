@@ -45,6 +45,7 @@ body{
 
 .navegacion-principal{
     display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 780px){
