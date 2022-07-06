@@ -68,3 +68,28 @@ h3{
     background-color: var(--amarillo);
     color:var(--oscuro);
 }
+
+@media(min-width: 180px){
+    body {
+     background-color: cornsilk;
+     font-size: 1.5rem;
+ }
+ }
+ 
+ @media(min-width: 780px){
+     body {
+         background-color: plum;
+     }
+ }
+ 
+ @media(min-width: 780px){
+     .navegacion-principal {
+         flex-direction: var(--marron);
+     }
+ }
+
+ h1,
+ h2,
+ h3{
+    text-align: center;
+ }
