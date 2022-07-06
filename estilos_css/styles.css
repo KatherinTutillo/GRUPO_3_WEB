@@ -5,6 +5,7 @@
     --gris: #757575;
     --amarillo: #FFFF00;
     --letraTitulo: 'Krub', sans-serif;
+    --verde: #79F51B;
 }
 
 h3{
@@ -65,7 +66,7 @@ h3{
 }
 
 .navegacion-principal a:hover{
-    background-color: var(--amarillo);
+    background-color: var(--verde);
     color:var(--oscuro);
 }
 

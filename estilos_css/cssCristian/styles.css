@@ -4,10 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
-    --morado: #C1A0F6;
-    --rosado: #F51A84;
     --fuente-principal: 3.8 rem;
-    --letraTitulo: 'Titan One', sans-serif;
 }
 .nav-bg {
     background-color: var(--primario);
@@ -20,15 +17,12 @@
     font-size: 3rem;
     color: purple;
 }
-.contenedor {
-    font-family: 'Courier New', Courier, sans-serif;
- }
 .titulo span {
     font-size: 2rem;
 }
-body{ 
+body{
     font-size: 16px;
-    font-family: 'Krub', sans-serif;
+    font-family: 'Titan One', sans-serif;
 }
 @media (min-width: 780px){
 
@@ -47,12 +41,9 @@ body{
     margin: auto;
 }
 
-.navegacion-principal a:hover{
-    background-color: var(--rosado);
-    color:var(--oscuro);
-}
+
 .navegacion-principal {
-    background-color: var(--morado);
+    background-color: var(--amarillo);
 }
 
 h3{
@@ -61,12 +52,4 @@ h3{
 
 fieldset{
     color: crimson;
-}
-.navegacion-principal a {
-    display: block;
-    color: var(--gris);
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 1rem;
 }
