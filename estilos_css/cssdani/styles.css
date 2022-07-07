@@ -21,7 +21,7 @@ html{
 
 body{
     font-size: 16px;
-    font-family: 'Krub', sans-serif;
+    font-family: 'Krub', Georgia, 'Times New Roman', Times, serif;
 }
 
 .titulo {
@@ -64,6 +64,7 @@ body{
     font-size: 2rem;
     font-weight: 700;
     padding: 1rem;
+    text-align: center;
 }
 
 .navegacion-principal a:hover{
@@ -71,7 +72,31 @@ body{
     color:var(--oscuro);
 }
 
-.hero{
-    background-image: url(../imagenes/hero.jpg);
+@media(min-width: 180px){
+   body {
+    background-color: coral;
+    font-size: 1.5rem;
+}
 }
 
+@media(min-width: 780px){
+    body {
+        background-color: hotpink;
+    }
+}
+
+@media(min-width: 780px){
+    .navegacion-principal {
+        flex-direction: var(--marron);
+    }
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
+
+.hero{
+    background-image: url(/imagenes/hero.jpg);
+}
