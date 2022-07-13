@@ -1,0 +1,102 @@
+:root{
+    --blanco: #FFFFFF;
+    --marron: #CF4528;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --amarillo: #FFFF00;
+    --letraTitulo: 'Krub', sans-serif;
+    --verde: #79F51B;
+}
+
+h3{
+    text-align: center;
+    color: darkred;
+ }
+
+.navegacion-principal{
+    background-color: var(--amarillo);
+}
+
+.titulo1 {
+    text-align: center;
+    font-size: 3.8rem;
+    color: red;
+}
+.titulo2 {
+    text-align: center;
+    font-size: 2rem;
+    color:blueviolet;
+}
+
+.contenedor {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo1 span {
+    font-size: 2rem;
+    color: blue;
+}
+
+.titulo2 span {
+    font-size: 2rem;
+    color: green;
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 780px){
+
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+}
+
+.navegacion-principal a {
+    display: block;
+    color: var(--gris);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--verde);
+    color:var(--oscuro);
+}
+
+body{
+    font-size: 16px;
+
+    font-family: 'Krub', sans-serif;
+}
+
+@media(min-width: 180px){
+    body {
+     background-color: cornsilk;
+     font-size: 1.5rem;
+ }
+ }
+ 
+ @media(min-width: 780px){
+     body {
+         background-color: plum;
+     }
+ }
+ 
+ @media(min-width: 780px){
+     .navegacion-principal {
+         flex-direction: var(--marron);
+     }
+ }
+
+ h1,
+ h2,
+ h3{
+    text-align: center;
+}
