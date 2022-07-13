@@ -91,6 +91,12 @@ body{
     }
 }
 
+body{
+    font-size: 16px;
+
+    font-family: 'Krub', Georgia;
+}
+
 h1,
 h2,
 h3{
@@ -98,5 +104,5 @@ h3{
 }
 
 .hero{
-    background-image: url(/imagenes/hero.jpg);
+    background-image: url(/imagenes/hero2.jpeg);
 }
