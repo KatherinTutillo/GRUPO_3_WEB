@@ -74,14 +74,14 @@ body{
 
 @media(min-width: 180px){
    body {
-    background-color: coral;
+    background-color: khaki;
     font-size: 1.5rem;
 }
 }
 
 @media(min-width: 780px){
     body {
-        background-color: hotpink;
+        background-color: bisque;
     }
 }
 
