@@ -21,7 +21,7 @@ html{
 
 body{
     font-size: 16px;
-    font-family: 'Krub', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Josefin Slab', serif;
 }
 
 .titulo {
@@ -89,12 +89,6 @@ body{
     .navegacion-principal {
         flex-direction: var(--marron);
     }
-}
-
-body{
-    font-size: 16px;
-
-    font-family: 'Krub', Georgia;
 }
 
 h1,
