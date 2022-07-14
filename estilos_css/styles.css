@@ -5,6 +5,7 @@
     --gris: #757575;
     --amarillo: #FFFF00;
     --verde: #79F51B;
+<<<<<<< HEAD
     --fuente-principal: 3.8rem;
 }
 
@@ -13,10 +14,20 @@ html {
     box-sizing: border-box;
 }
 
+=======
+
+}
+>>>>>>> 9adc20d78e5f25c11f1e8310802aca446ed0d6c0
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+<<<<<<< HEAD
+=======
+}.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+>>>>>>> 9adc20d78e5f25c11f1e8310802aca446ed0d6c0
 }
 
 h3{
@@ -26,6 +37,45 @@ h3{
 
 .navegacion-principal{
     background-color: var(--amarillo);
+}
+.hero {
+    background-image: url(../imagenes/hero2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    padding: px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-hero {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7); /**anterior**/
+    background-color: rgb(0 0 0 / 70%);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+.contenido-hero h2, 
+.contenido-hero p {
+    color: var(--blanco);
+}
+.ubicacion {
+    display: flex;
+    align-items: flex-end;
 }
 
 .titulo span {
@@ -69,6 +119,9 @@ h3{
         justify-content: space-between;
     }    
 
+}
+@media (min-width: 480px) { 
+    
 }
 
 .navegacion-principal a {
