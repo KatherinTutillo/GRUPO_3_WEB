@@ -26,12 +26,13 @@ html {
 
 h3{
     text-align: center;
-    color: darkred;
+    color: darkmagenta;
  }
 
 .navegacion-principal{
     background-color: var(--acqua);
 }
+
 .hero {
     background-image: url(../imagenes/hero2.jpeg);
     background-repeat: no-repeat;
@@ -41,6 +42,7 @@ h3{
     position: relative;
     margin-bottom: 2rem;
 }
+
 .contenido-hero {
     position: absolute;
     background-color: rgba(0, 0, 0, .7); /**anterior**/
@@ -53,6 +55,7 @@ h3{
     align-items: center;
     justify-content: center;
 }
+
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);
@@ -67,6 +70,7 @@ h3{
 .contenido-hero p {
     color: var();
 }
+
 .ubicacion {
     display: flex;
     align-items: flex-end;
@@ -115,8 +119,8 @@ h3{
         flex-direction: row;
         justify-content: space-between;
     }    
-
 }
+
 @media (min-width: 480px) { 
     
 }
@@ -174,6 +178,7 @@ body{
 }
 h2 {
     font-size: 2.8rem;
+    color: darkred;
 
 }
 h3 {
