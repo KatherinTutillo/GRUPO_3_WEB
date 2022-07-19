@@ -5,7 +5,6 @@
     --gris: #757575;
     --amarillo: #FFFF00;
     --verde: #79F51B;
-<<<<<<< HEAD
     --fuente-principal: 3.8rem;
 }
 
@@ -14,20 +13,10 @@ html {
     box-sizing: border-box;
 }
 
-=======
-
-}
->>>>>>> 9adc20d78e5f25c11f1e8310802aca446ed0d6c0
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-<<<<<<< HEAD
-=======
-}.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
->>>>>>> 9adc20d78e5f25c11f1e8310802aca446ed0d6c0
 }
 
 h3{
