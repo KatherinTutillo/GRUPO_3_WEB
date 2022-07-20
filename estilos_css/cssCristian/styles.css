@@ -110,7 +110,15 @@ h3 {
     background-color: var(--primario);
     color: var(--oscuro);
 }
-
+.hero {
+    background-image: url(../../img/hero2.jepg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    padding: px;
+    position: relative;
+    margin-bottom: 2rem;
+}
 
 .contenido-hero {
     position: absolute;
