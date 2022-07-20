@@ -138,3 +138,7 @@ h3 {
 .contenido-hero p {
     color: var(--blanco);
 }
+.ubicacion {
+    display: flex;
+    align-items: flex-end;
+}
