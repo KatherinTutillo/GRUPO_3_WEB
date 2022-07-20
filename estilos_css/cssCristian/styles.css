@@ -7,7 +7,7 @@
     --fuente-principal: 3.8 rem;
 }
 .nav-bg {
-    background-color: var(--primario);
+    background-color: var(--gris);
 }
 .navegacion-principal{
     display: flex;
@@ -15,14 +15,14 @@
 .titulo {
     text-align: center;
     font-size: 3rem;
-    color: purple;
+    color: darkred;
 }
 .titulo span {
     font-size: 2rem;
 }
 body{
     font-size: 16px;
-    font-family: 'Titan One', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 .sombra{
     -webkit-box-shadown: 0px 5px 15px 0px rgba;
@@ -155,9 +155,9 @@ h1, h2, h3 {
 }
 
 h3{
-    color: darkred;
+    color: #0097a7;
 }
 
 fieldset{
-    color: crimson;
+    color: #ffc107;
 } 
