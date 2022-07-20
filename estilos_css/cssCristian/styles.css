@@ -199,7 +199,7 @@ html {
 
 h3{
     text-align: center;
-    color: darkmagenta;
+    color: rgb(139, 0, 0);
  }
 
 .navegacion-principal{
@@ -351,7 +351,7 @@ body{
 }
 h2 {
     font-size: 2.8rem;
-    color: darkred;
+    color: rgb(50, 81, 75);
 
 }
 h3 {
