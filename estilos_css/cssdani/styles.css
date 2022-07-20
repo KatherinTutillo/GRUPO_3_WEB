@@ -13,6 +13,10 @@
     --fuente-principal: 3.8rem;
 }
 
+p{
+    color: darkblue;
+}
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -24,7 +28,7 @@ html {
     box-sizing: inherit;
 }
 
-h3{
+h1{
     text-align: center;
     color: darkmagenta;
  }
@@ -78,6 +82,8 @@ h3{
 
 .titulo span {
     font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorchid;
 }
 
 .titulo1 {
