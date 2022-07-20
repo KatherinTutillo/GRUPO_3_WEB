@@ -28,7 +28,7 @@ h3{
     background-color: var(--amarillo);
 }
 .hero {
-    background-image: url(../imagenes/hero2.jpeg);
+    background-image: url(../img/hero2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;
@@ -160,7 +160,7 @@ body{
  
  @media(min-width: 780px){
      body {
-         background-color: lightcoral;
+         background-color: lightpink;
      }
  }
  
