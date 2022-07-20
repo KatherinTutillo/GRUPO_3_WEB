@@ -110,7 +110,6 @@ h3 {
     background-color: var(--primario);
     color: var(--oscuro);
 }
-
 .hero {
     background-image: url(../../img/hero2.jpeg);
     background-repeat: no-repeat;
@@ -139,7 +138,6 @@ h3 {
 .contenido-hero p {
     color: var(--blanco);
 }
-
 .ubicacion {
     display: flex;
     align-items: flex-end;

@@ -13,9 +13,13 @@
     --fuente-principal: 3.8rem;
 }
 
+.contenido-hero h2, 
+.contenido-hero p {
+    color: lime;
+}
+
 p{
-    color: limegreen;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 html {
