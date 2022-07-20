@@ -6,11 +6,30 @@
     --gris: #757575;
     --fuente-principal: 3.8 rem;
 }
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h3{
+    text-align: center;
+    color: rgb(130, 139, 0);
+ }
+
+.navegacion-principal{
+    background-color: var(--acqua);
+}
 .nav-bg {
-    background-color: var(--gris);
+    background-color: var(--secundario);
 }
 .navegacion-principal{
-    display: flex;
+    background-color: var(--acqua);
 }
 .titulo {
     text-align: center;
