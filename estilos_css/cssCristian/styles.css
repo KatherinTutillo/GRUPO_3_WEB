@@ -112,16 +112,6 @@ h3 {
     color: var(--oscuro);
 }
 
-.hero {
-    background-image: url(../../img/hero2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 480px;
-    padding: px;
-    position: relative;
-    margin-bottom: 2rem;
-}
-
 .contenido-hero {
     position: absolute;
     background-color: rgba(0, 0, 0, .7);
