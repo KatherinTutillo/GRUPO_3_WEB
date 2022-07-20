@@ -8,6 +8,10 @@
     --fuente-principal: 3.8rem;
 }
 
+p{
+    color: navy;
+}
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
