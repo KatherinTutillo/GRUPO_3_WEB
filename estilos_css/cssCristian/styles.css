@@ -111,7 +111,7 @@ h3 {
     color: var(--oscuro);
 }
 .hero {
-    background-image: url(../../img/hero2.jepg);
+    background-image: url(../../img/hero2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;
