@@ -7,7 +7,6 @@
     --fuente-principal: 3.8 rem;
 }
 
-
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -108,12 +107,12 @@ h3 {
 }
 
 .navegacion-principal a:hover {
-    background-color: var(--grisClaro);
+    background-color: var(--primario);
     color: var(--oscuro);
 }
 
 .hero {
-    background-image: url(../img/hero2.jpeg);
+    background-image: url(../../img/hero2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;

@@ -14,7 +14,8 @@
 }
 
 p{
-    color: darkblue;
+    color: limegreen;
+    font-size: 2.5rem;
 }
 
 html {
@@ -38,7 +39,7 @@ h1{
 }
 
 .hero {
-    background-image: url(../img/hero4.jpeg);
+    background-image: url(../../img/hero2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;
@@ -94,8 +95,8 @@ h1{
     
 .titulo2 {
     text-align: center;
-    font-size: 2rem;
-    color:blueviolet;
+    font-size: 4rem;
+    color:chartreuse;
 }
 
 .contenedor {
@@ -118,7 +119,7 @@ h1{
 
 .titulo2 span {
     font-size: 2rem;
-    color: green;
+    color: deeppink;
 }
 
 .navegacion-principal{
