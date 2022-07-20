@@ -101,13 +101,15 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 
+
 .hero {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../imagenes/hero2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;
     padding: px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
