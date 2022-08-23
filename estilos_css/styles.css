@@ -35,7 +35,7 @@ h3{
     background-image: url(../img/hero2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 480px;
+    height: 450px;
     padding: px;
     position: relative;
     margin-bottom: 2rem;
@@ -59,7 +59,9 @@ h3{
     margin-top: 1rem;
     font-size: 2rem;
     text-decoration: none;
-    
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
 }
 
 .contenido-hero h2, 
@@ -97,6 +99,8 @@ h3{
 }
 
 .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
    font-family: 'Courier New', Courier, monospace;
 }
 
@@ -131,8 +135,8 @@ h3{
     display: block;
     color: var(--gris);
     text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
     padding: 1rem;
 }
 
@@ -144,6 +148,7 @@ h3{
 body{
     font-size: 16px;
     font-family: 'Mali', cursive;
+    background-color: #0097A7;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 
