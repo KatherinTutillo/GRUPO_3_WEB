@@ -41,6 +41,9 @@ h1{
 
 .navegacion-principal{
     background-color: var(--acqua);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero {
@@ -159,8 +162,7 @@ h1{
 }
 
 .navegacion-principal{
-    display: flex;
-    flex-direction: column;
+    
 }
 
 @media (min-width: 780px){
