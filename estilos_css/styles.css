@@ -15,6 +15,7 @@ p{
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 
 *,
@@ -101,7 +102,7 @@ h3{
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
-   font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .titulo1 span {
