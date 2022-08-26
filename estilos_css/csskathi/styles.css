@@ -6,8 +6,12 @@
     --gris: #757575;
     --morado: #C1A0F6;
     --rosado: #F51A84;
+    --bech:#FA8A79;
+    --rosa:#FA5CD4;
+    --celeste:#A0FAF5;
+    --claro:#F8F4D1;
     --fuente-principal: 3.8 rem;
-    --letraTitulo: 'Titan One', sans-serif;
+    --letraTitulo: 'Titan One';
 }
 
 *,
@@ -15,11 +19,15 @@
 *::after {
     box-sizing: inherit;
 }
-
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
 .contenido-hero h2, 
 .contenido-hero p {
     color: var(--blanco);
 }
+
 .nav-bg {
     background-color: var(--primario);
 }
@@ -57,33 +65,52 @@
     
 }
 h1 {
-    font-size: 3.8rem;
+    font-size: 2.2rem;
 }
 h2 {
     font-size: 2.8rem;
+    font-family: 'Titan One'
 
 }
 h3 {
     font-size: 1.8rem;
+    font-family: 'Arima'
 }
 h1, h2, h3 {
     text-align: center;
+     font-family: 'Titan One'
 }
 .titulo {
     text-align: center;
     font-size: 3rem;
-    color: purple;
+    color: var(--rosado);
+}
+.final{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.1rem;
 }
 .contenedor {
     font-family: 'Courier New', Courier, sans-serif;
  }
 .titulo span {
     font-size: 2rem;
+    color: var(--morado) ;
 }
-body{ 
-    font-size: 16px;
-    font-family: 'Krub', sans-serif;
+
+body{
+    font-size: 14px;
+    font-family:  'Titan One';
+    background-image: linear-gradient(to top,var(--verde)0%,var(--blanco)50%);
 }
+.sombra{
+    -webkit-box-shadow: -8px 4px 38px -11px rgb(149, 93, 214);
+    -moz-box-shadow: -8px 4px 38px -11px rgb(170, 121, 226);
+    box-shadow: -8px 4px 38px -11px rgb(178, 143, 218);
+    padding: 1rem;
+    border-radius: 2rem;
+ 
+}
+
 @media (min-width: 780px){
 
     .navegacion-principal{
@@ -107,6 +134,9 @@ body{
 }
 .navegacion-principal {
     background-color: var(--morado);
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
 }
 
 h3{
@@ -117,7 +147,7 @@ fieldset{
     color: black;
 }
 .navegacion-principal a {
-    display: block;
+    display: flex;   
     color: var(--gris);
     text-decoration: none;
     font-size: 1rem;
@@ -127,4 +157,48 @@ fieldset{
 .ubicacion {
     display: flex;
     align-items: flex-end;
+}
+
+.formulario{
+    background-color:var(--bech) ;
+    width: min( 60rem ,100%);
+    margin: 0 auto;
+    padding : 2rem ;
+    border-radius: 1rem ;
+    text-align: center;
+
+}
+.formulario fieldset {
+    border:none;
+}
+.formulario legend {
+    text-align:center;
+    font-size: 1.8rem ;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--celeste);   
+}
+
+.campo{
+margin-bottom: 1 rem ;
+
+}
+.campo label {
+    color: var(--claro);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-align: center;
+    display: block;
+}
+.input-text{
+    width:100% ;
+    border:none ;
+    padding: 1.5rem ;
+    border-radius: 1.5rem;
+}
+.enviar.boton {
+    width: 80%;
+    
+    
 }
